@@ -13,6 +13,8 @@ class ParkingLot {
         return cars.size() < capacity;
     }
 
+    //testing
+
     public void addCar(Car car) {
         if (isAvailable()) {
             cars.add(car);
